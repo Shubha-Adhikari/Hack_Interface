@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css?family=Consolas');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bold {
+    font-weight: 900 !important;
+    font-size: 17px;
+}
+
+body {
+    color: rgb(99, 255, 47);
+    font-family: 'Consolas', sans-serif;
+}
+
+#bg{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -2;
+}
+
+::selection {
+    color: black;
+    background: rgb(99, 255, 47);
+}
+
+.main-cont {
+    background: #000f01e3;
+    min-width: 100%;
+    height: 95vh;
+}
+
+.bg-img {
+    z-index: -2;
+    position: absolute;
+    width: 100%;
+    max-height: 95vh;
+}
+
+/* #video-bg {
+    position: fixed;
+    z-index: -2;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+} */
+
+#interface {
+    background: #00540320;
+    border-radius: 25px;
+    min-height: 33em;
+    box-shadow: rgba(99, 255, 47, 0.366) 0 0 3em;
+    text-shadow: rgba(64, 255, 0, 0.748) 0 0 3em;
+
+}
+
+.text-danger {
+    color: rgb(255, 0, 0) !important;
+    text-shadow: rgba(255, 0, 0, 0.853) 0 0 3em !important;
+
+}
+
+.main-btn {
+    border: 2px solid rgb(99, 255, 47);
+    color: rgb(99, 255, 47);
+    box-shadow: rgba(99, 255, 47, 0.366) 0 0 3em;
+    text-shadow: rgba(99, 255, 47, 0.366) 0 0 3em;
+    min-width: 20vh;
+    max-width: 30vh;
+    min-height: 7vh;
+    border-radius: 10px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 10.5em;
+}
+
+.main-btn:hover {
+    border: 2px solid rgb(99, 255, 47);
+    background: rgba(99, 255, 47, 0.16);
+    min-width: 22vh;
+    max-width: 32vh;
+    min-height: 8vh;
+    transition: all .1s linear;
+}
+
+.hidden {
+    display: none;
+}
+
+#progress-bar {
+    background: linear-gradient(to left, rgb(64, 255, 0), rgba(255, 174, 0, 0));
+    box-shadow: rgb(64, 255, 0) 0 0 3em;
+
+}
+
+.progress {
+    height: 3em;
+    border-radius: 0;
+    border: 5px solid rgb(99, 255, 47);
+    background: rgb(27, 74, 0);
+    box-shadow: rgba(99, 255, 47, 0.366) 0 0 3em;
+
+}
+
+#search {
+    min-width: 30vh;
+    min-height: 8vh;
+    box-shadow: rgba(99, 255, 47, 0.366) 0 0 3em;
+    text-shadow: rgb(99, 255, 47) 0 0 3em;
+}
+
+#username {
+    background: rgba(27, 107, 0, 0.151);
+    color: rgb(255, 25, 25);
+    height: 7vh;
+    border: 2px solid rgb(99, 255, 47);
+    box-shadow: rgba(99, 255, 47, 0.366) 0 0 3em;
+    text-shadow: rgb(255, 0, 0) 0 0 3em;
+    width: 40em;
+    margin: auto;
+    font-size: 25px;
+    text-align: center;
+}
+
+.form-title {
+    text-align: center;
+    margin: auto;
+}
+
+#video-matrix {
+    width: 38em;
+}
